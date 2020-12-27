@@ -1,7 +1,7 @@
 
 ## 简介
 
-> MarkDown是一种轻量级标记语言，以纯文本格式编写文档，然后转换成有效的XHTML/HTML内容
+> Markdown是一种轻量级标记语言，以纯文本格式编写文档，然后转换成有效的XHTML/HTML内容
 
 - 语法简洁明了、易读易写
 - 轻量、纯文本、跨平台、兼容性极强
@@ -20,7 +20,7 @@
 
 **Aaron Swartz**（1986年11月8日－2013年1月11日）
 
-MarkDown主要贡献者，Aaron Hillel Swartz（全名）的维基百科介绍为：美国程序员、企业家、作者、政治活动者、互联网黑客主义者，点击查看更多关于这位天才的[完整生平]([https://zh.wikipedia.org/zh-hans/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8#](https://zh.wikipedia.org/zh-hans/亚伦·斯沃茨#))
+Markdown主要贡献者，Aaron Hillel Swartz（全名）的维基百科介绍为：美国程序员、企业家、作者、政治活动者、互联网黑客主义者，点击查看更多关于这位天才的[完整生平]([https://zh.wikipedia.org/zh-hans/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8#](https://zh.wikipedia.org/zh-hans/亚伦·斯沃茨#))
 
 ## 开始使用
 
@@ -29,7 +29,7 @@ MarkDown主要贡献者，Aaron Hillel Swartz（全名）的维基百科介绍�
 
 #### 标题
 
-一般的，MarkDown使用`#`可以表示1-6级标题
+一般的，Markdown使用`#`可以表示1-6级标题
 
 >\# 这是一级标题
 >\## 这是二级标题
@@ -48,7 +48,7 @@ MarkDown主要贡献者，Aaron Hillel Swartz（全名）的维基百科介绍�
 >###### 这是六级标题
 
 对于一级和二级标题，还可以使用`-`和·`=`来标记
-```MarkDown
+```Markdown
 这是一级标题
 ==========
 这是二级标题
@@ -66,7 +66,7 @@ MarkDown主要贡献者，Aaron Hillel Swartz（全名）的维基百科介绍�
 ##### 无序列表
 
 使用`-`、`*`、`+`来标记无序列表，下面以`-`为例
-```MarkDown
+```Markdown
 - 这是第一项
 - 这是第二项
 - 这是第三项
@@ -80,7 +80,7 @@ MarkDown主要贡献者，Aaron Hillel Swartz（全名）的维基百科介绍�
 ##### 有序列表
 
 在阿拉伯数字后面加上`.`来标记
-```MarkDown
+```Markdown
 1. 这是第一项
 2. 这是第二项
 3. 这是第三项
@@ -96,7 +96,7 @@ MarkDown主要贡献者，Aaron Hillel Swartz（全名）的维基百科介绍�
 
 在子级列表前加4个<kbd>空格</kbd>来标记
 
-```MarkDown
+```Markdown
 1. 第一项：
     - 第一项嵌套的第一个元素
     - 第一项嵌套的第二个元素
@@ -128,7 +128,7 @@ MarkDown主要贡献者，Aaron Hillel Swartz（全名）的维基百科介绍�
 
 #### 段落
 
-一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行，对于大部分现代的MarkDown编辑器（比如Typora），你完全不用关心，写作怎么换行就这么换行就好
+一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行，对于大部分现代的Markdown编辑器（比如Typora），你完全不用关心，写作怎么换行就这么换行就好
 
 #### 反转义
 
@@ -241,7 +241,7 @@ MarkDown主要贡献者，Aaron Hillel Swartz（全名）的维基百科介绍�
 
 Markdown 标记区块引用是使用类似 email 中用 `>` 的引用方式
 
-```MarkDown
+```Markdown
 >这是一段被引用的内容
 ```
 
@@ -294,7 +294,7 @@ $(document).ready(function () {
 
 #### 链接
 
-一般的，MarkDown链接有两种：
+一般的，Markdown链接有两种：
 
 > \[这是链接名称](这是链接地址)
 >
@@ -308,7 +308,7 @@ $(document).ready(function () {
 >
 > 这是邮箱：<example@mail.com>
 
-稍微复杂一点的高级链接有点类似于MarkDown的脚注,实际注明的链接类似于脚注在文末引用，比如：
+稍微复杂一点的高级链接有点类似于Markdown的脚注,实际注明的链接类似于脚注在文末引用，比如：
 
 > 这是\[谷歌][2]
 >
@@ -372,22 +372,22 @@ $(document).ready(function () {
 
 #### 更多姿势
 
-其实，上面就是MarkDown一般技巧，也是最常使用的。一般的，MarkDown写作最直接转换的就是HTML文本，所以，MarkDown显然也可以支援一些HTML属性，比如：
+其实，上面就是Markdown一般技巧，也是最常使用的。一般的，Markdown写作最直接转换的就是HTML文本，所以，Markdown显然也可以支援一些HTML属性，比如：
 
 > \<kdb> \<b> \<i> \<em> \<sup> \<sub> \<br>
 
-像有些网站的`html`嵌入代码，有些在MarkDown也是支持的，但不是全部，具体还要看MarkDown的编辑器和渲染器是否支持，像网易云音乐的`HTML`嵌入代码大部分使用MD解析的程序可以支持，比如：
+像有些网站的`html`嵌入代码，有些在Markdown也是支持的，但不是全部，具体还要看Markdown的编辑器和渲染器是否支持，像网易云音乐的`HTML`嵌入代码大部分使用MD解析的程序可以支持，比如：
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=29717271&auto=1&height=66"></iframe>
 
-对于数学公式，MarkDown支持使用两个`$$`包裹`TeX`、`LateX`或`Mathjax`的数学公式，因为个人使用不是很多，这里不做叙述😛
+对于数学公式，Markdown支持使用两个`$$`包裹`TeX`、`LateX`或`Mathjax`的数学公式，因为个人使用不是很多，这里不做叙述😛
 
 ### 参考资料
 
-- [MarkDown基本语法](http://younghz.github.io/Markdown/)
+- [Markdown基本语法](http://younghz.github.io/Markdown/)
 - [简书-献给写作者的 Markdown 新手指南](https://www.jianshu.com/p/q81RER)
-- [菜鸟教程-MarkDown教程](https://www.runoob.com/markdown/md-tutorial.html)
-- [维基百科-MarkDown](https://zh.wikipedia.org/wiki/Markdown)
+- [菜鸟教程-Markdown教程](https://www.runoob.com/markdown/md-tutorial.html)
+- [维基百科-Markdown](https://zh.wikipedia.org/wiki/Markdown)
 - [Markdown 语法说明 (简体中文版)](https://www.appinn.com/markdown/)
 
 [^注1]: 看文末，这是一段注释
